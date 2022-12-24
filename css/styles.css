@@ -91,7 +91,11 @@ div > p:first-child {
     text-shadow: 1px 1px 3px #444;
     font-family: Istok Web, sans-serif;
     font-style: italic;
-    margin: 0 0 0 1.95rem;
+    margin: 0 0 0 1.65rem;
+    background-color: rgba(0, 0, 0, 0.15);
+    /* backdrop-filter: blur(1px); */
+    border-radius: 0.3rem;
+    padding: 0.3rem;
 }
 
 main {
@@ -103,7 +107,7 @@ main {
 .links {
     display: flex;
     justify-content: flex-start;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .links img {
