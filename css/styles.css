@@ -33,12 +33,8 @@ footer {
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
-}
-
-p {
-    white-space: pre;
 }
 
 .blog {
@@ -100,11 +96,11 @@ div > p:first-child {
     clear: right;
     margin: 0;
     text-shadow: 1px 1px 3px #444;
-    font-family: Noto Sans Display, sans-serif;
+    font-family: Istok Web, sans-serif;
 }
 
 .intro > img {
-    transform: scale(0.85);
+    transform: scale(0.89);
 }
 
 main {
