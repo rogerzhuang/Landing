@@ -1,0 +1,122 @@
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: larger;
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%, rgba(0, 0, 0, 0.55) 100%), 
+    url(../images/background_bamboo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    image-rendering: pixelated;
+    margin: 0;
+}
+
+header {
+    margin: 2.5rem 5vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 1vw 5vw 1vw;
+    display: grid;
+    column-gap: 5rem;
+    grid-template-columns: 1.6fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p {
+    white-space: pre;
+}
+
+.blog {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.blogPosts {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blogPosts > div {
+    margin-right: auto;
+}
+
+.blogButtons {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+div > p:first-child {
+    margin-bottom: 0.1rem;
+}
+
+.author {
+    color: rgb(180, 180, 180);
+    margin-top: 0;
+}
+
+.twitter {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.twitterPosts {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.twitterButtons {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.links {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.intro {
+    font-style: italic;
+}
+
+.intro > * {
+    float: right;
+    clear: right;
+    margin: 0;
+    text-shadow: 1px 1px 3px #444;
+    font-family: Noto Sans Display, sans-serif;
+}
+
+.intro > img {
+    transform: scale(0.85);
+}
+
+main {
+    margin: 15vh 15vw 0;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5rem;
+}
+
+.links > img {
+    transform: scale(0.33);
+}
