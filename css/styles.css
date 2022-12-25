@@ -13,16 +13,16 @@ body {
 }
 
 header {
-    padding: 2rem 5vw 0;
+    padding: 2rem 6vw 0;
     display: flex;
     justify-content: space-between;
 }
 
 footer {
-    padding: 1vw 5vw 1vw;
+    padding: 1vw 6vw 1vw;
     display: grid;
-    column-gap: 5rem;
-    grid-template-columns: 1.6fr 1fr 1fr;
+    column-gap: 4vw;
+    grid-template-columns: 1.8fr 1fr 1.2fr;
     grid-template-rows: 1fr 2fr 1fr;
     position: fixed;
     bottom: 0;
@@ -107,14 +107,14 @@ main {
 .links {
     display: flex;
     justify-content: flex-start;
-    gap: 1.5rem;
+    gap: 1vw;
 }
 
 .links img {
     transform: scale(0.78);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     header {
         padding: 2rem 3vw 0;
     }
@@ -125,14 +125,18 @@ main {
     
     main {
         margin: 10vh 5vw 0;
+        display: block;
     }
 
     .intro img {
         width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .intro p {
-        margin: 0 0 0 0.3rem;
+        margin: 0;
     }
 
     footer {
@@ -144,6 +148,6 @@ main {
 
     .links {
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 }
