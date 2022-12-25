@@ -123,7 +123,7 @@ main {
     }
     
     main {
-        margin: 12vh 5vw 0;
+        margin: 10vh 5vw 0;
     }
 
     .intro img {
@@ -135,7 +135,7 @@ main {
     }
 
     footer {
-        height: 25vh;
+        height: 20vh;
         display: block;
         overflow:scroll;
         overflow-x:hidden;
