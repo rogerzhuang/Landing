@@ -87,13 +87,12 @@ div > p:first-child {
     grid-row: 3 / 4;
 }
 
-.intro > p {
+.intro p {
     text-shadow: 1px 1px 3px #444;
     font-family: Istok Web, sans-serif;
     font-style: italic;
     margin: 0 0 0 1.65rem;
     background-color: rgba(0, 0, 0, 0.15);
-    /* backdrop-filter: blur(1px); */
     border-radius: 0.3rem;
     padding: 0.3rem;
 }
@@ -112,4 +111,38 @@ main {
 
 .links img {
     transform: scale(0.78);
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 2rem 3vw 0;
+    }
+
+    header img {
+        transform: scale(0.9); 
+    }
+    
+    main {
+        margin: 12vh 5vw 0;
+    }
+
+    .intro img {
+        width: 350px;
+    }
+
+    .intro p {
+        margin: 0 0 0 0.3rem;
+    }
+
+    footer {
+        height: 25vh;
+        display: block;
+        overflow:scroll;
+        overflow-x:hidden;
+    }
+
+    .links {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
 }
