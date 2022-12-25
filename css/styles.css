@@ -56,6 +56,25 @@ h1 {
 .blogButtons {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    display: flex;
+}
+
+.blogButtons > *, .twitterButtons > * {
+    border-radius: 50%;
+    width: 0.3rem;
+    height: 0.3rem;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 0.5rem 0 0;
+}
+
+.buttonRed {
+    background-color: #ffbc03;
+}
+
+.buttonGrey {
+    background-color: #aaaaaa;
 }
 
 div > p:first-child {
@@ -80,6 +99,7 @@ div > p:first-child {
 .twitterButtons {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    display: flex;
 }
 
 .links {
