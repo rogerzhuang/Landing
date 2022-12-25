@@ -89,9 +89,10 @@ div > p:first-child {
 
 .intro p {
     text-shadow: 1px 1px 3px #444;
-    font-family: Istok Web, sans-serif;
+    font-family: Elza, sans-serif;
     font-style: italic;
-    margin: 0 0 0 1.65rem;
+    line-height: 1.25rem;
+    margin: 0 0 0 1.8rem;
     background-color: rgba(0, 0, 0, 0.15);
     border-radius: 0.3rem;
     padding: 0.3rem;
