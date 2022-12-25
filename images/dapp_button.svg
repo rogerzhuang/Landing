@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="152" height="53" viewBox="0 0 152 53">
-  <g id="Group_782" data-name="Group 782" transform="translate(-1553 -40)">
-    <rect id="Rectangle_91" data-name="Rectangle 91" width="152" height="53" rx="26" transform="translate(1553 40)" fill="#63cffe"/>
-    <text id="DApp" transform="translate(1609 73)" fill="#fff" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">DApp</tspan></text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="53" xmlns:v="https://vecta.io/nano"><rect width="152" height="53" rx="26" fill="#63cffe"/><text fill="#fff" font-size="18" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="56" y="33">DApp</tspan></text></svg>
